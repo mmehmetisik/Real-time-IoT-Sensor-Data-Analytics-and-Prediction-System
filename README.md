@@ -76,7 +76,7 @@ Access dashboard at http://localhost:5601
 - Records when no activity is detected in rooms
 
 ## Project Structure
-
+```bash
 project_root/
 ├── docker/
 │   └── docker-compose.yml
