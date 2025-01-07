@@ -26,6 +26,52 @@ The project consists of several interconnected components:
 - Python (PySpark, pandas)
 - Machine Learning (scikit-learn)
 
+## Pipeline Components
+
+### 1. Data Ingestion
+- Downloads and preprocesses KETI sensor dataset
+- Converts raw data into streamable format
+- Sets up Kafka topics for data streaming
+
+### 2. Data Processing
+- Real-time stream processing with Apache Spark
+- Data storage in Elasticsearch
+- Real-time visualization in Kibana
+
+### 3. Machine Learning
+- Model training for motion detection
+- Real-time predictions using trained model
+- Separate Kafka topics for activity predictions
+
+## Monitoring and Visualization
+
+### Kibana Dashboard
+Access dashboard at http://localhost:5601
+- Real-time sensor data visualization
+- Motion state distribution
+- Environmental metrics (CO2, temperature, humidity)
+- Room-specific analytics
+- Interactive filtering and time range selection
+
+### Data Monitoring
+- Elasticsearch indexes: http://localhost:9200/_cat/indices
+- Kafka topics monitoring through console consumers
+- ML prediction monitoring through dedicated topics
+
+## Kafka Topics
+
+### office-input
+- Receives CSV data from preprocessing
+- Source for Elasticsearch stream and ML model
+
+### office-activity
+- Used for motion detection events
+- Records when activity is detected in rooms
+
+### office-no-activity
+- Used for no-motion detection events
+- Records when no activity is detected in rooms
+
 ## Project Structure
 ```bash
 project_root/
@@ -42,3 +88,5 @@ project_root/
 ├── scripts/
 │   └── test_connections.py
 └── README.md
+
+
