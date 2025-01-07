@@ -92,4 +92,4 @@ project_root/
 │   └── test_connections.py
 └── README.md
 ```
-![version](https://img.shields.io/badge/version-1-blue.svg)
+![version](https://img.shields.io/badge/version-2-blue.svg)
