@@ -1,6 +1,6 @@
 # Real-time-IoT-Sensor-Data-Analytics-and-Prediction-System 
 
-![version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![version](https://img.shields.io/badge/version-1-blue.svg)
 
 ![System_architecture](https://github.com/user-attachments/assets/5389dfc7-fd3e-4d45-8e2c-d44e12de8db1)
 
@@ -76,7 +76,7 @@ Access dashboard at http://localhost:5601
 - Records when no activity is detected in rooms
 
 ## Project Structure
-```bash
+
 project_root/
 ├── docker/
 │   └── docker-compose.yml
@@ -92,4 +92,4 @@ project_root/
 │   └── test_connections.py
 └── README.md
 
-
+![version](https://img.shields.io/badge/version-1-blue.svg)
