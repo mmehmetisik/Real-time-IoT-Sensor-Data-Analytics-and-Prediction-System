@@ -25,3 +25,20 @@ The project consists of several interconnected components:
 - Kibana
 - Python (PySpark, pandas)
 - Machine Learning (scikit-learn)
+
+## Project Structure
+```bash
+project_root/
+├── docker/
+│   └── docker-compose.yml
+├── python_files/
+│   ├── preprocess_data.py
+│   ├── dataframe_to_kafka_final.py
+│   ├── spark_to_elasticsearch_wo_functions.py
+│   ├── model_training.py
+│   └── spark_ml_stream.py
+├── data/
+│   └── KETI/
+├── scripts/
+│   └── test_connections.py
+└── README.md
