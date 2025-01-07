@@ -1,6 +1,8 @@
 # Real-time-IoT-Sensor-Data-Analytics-and-Prediction-System 
 
-![version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+# Real-time-IoT-Sensor-Data-Analytics-and-Prediction-System
+---
+> **Current Version: 1.0.0**
 
 ![System_architecture](https://github.com/user-attachments/assets/5389dfc7-fd3e-4d45-8e2c-d44e12de8db1)
 
