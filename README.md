@@ -1,5 +1,6 @@
 # Real-time-IoT-Sensor-Data-Analytics-and-Prediction-System - Version 1
 
+![System_architecture](https://github.com/user-attachments/assets/5389dfc7-fd3e-4d45-8e2c-d44e12de8db1)
 
 ## Project Overview
 This project implements a real-time data processing pipeline for analyzing sensor data from office buildings. It processes various sensor readings including temperature, humidity, CO2, and motion data, visualizes them in real-time, and makes ML predictions for activity detection.
