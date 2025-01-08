@@ -77,7 +77,12 @@ Access dashboard at http://localhost:5601
 
 ### Process Steps with Screenshots:
 1. **Data Preprocessing**
-  ![Preprocessing](docs/images/preprocessing.png)
+![preprocess_01](https://github.com/user-attachments/assets/66aa7e4a-3005-49e6-b7f6-d82c6bfeb068)
+![preprocess_02](https://github.com/user-attachments/assets/9f945882-2d94-486e-b221-b2748053fe5b)
+![preprocess_03](https://github.com/user-attachments/assets/6f410e4a-0489-48ff-9085-483a153f7993)
+![preprocess_04](https://github.com/user-attachments/assets/a00a1f8c-5005-4410-8651-6d9e672d8f49)
+
+
   - Raw sensor data ingestion
   - Data cleaning and formatting
 
