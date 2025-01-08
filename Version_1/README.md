@@ -75,6 +75,32 @@ Access dashboard at http://localhost:5601
 - Used for no-motion detection events
 - Records when no activity is detected in rooms
 
+### Process Steps with Screenshots:
+1. **Data Preprocessing**
+  ![Preprocessing](docs/images/preprocessing.png)
+  - Raw sensor data ingestion
+  - Data cleaning and formatting
+
+2. **Kafka Stream Processing**
+  ![Kafka Streaming](docs/images/kafka_stream.png)
+  - Real-time data streaming
+  - Multi-topic management
+
+3. **ML Model Training**
+  ![ML Training](docs/images/ml_training.png)
+  - Motion detection model training
+  - Performance metrics
+
+4. **Real-time Predictions**
+  ![Predictions](docs/images/predictions.png)
+  - Live activity detection
+  - Movement classification
+
+5. **Kibana Visualization**
+  ![Dashboard](docs/images/kibana_dashboard.png)
+  - Real-time metrics display
+  - Interactive analytics
+
 ## Project Structure
 ```bash
 project_root/
