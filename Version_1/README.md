@@ -93,6 +93,7 @@ Access dashboard at http://localhost:5601
 - Quality checks and validation
 
 3. **Kafka Topic Monitoring**
+
 ![topic_monitoring](https://github.com/user-attachments/assets/aa2f5f02-4681-4b50-a50f-672b29fab139)
 - Real-time topic data visualization
 - Sample data output:
