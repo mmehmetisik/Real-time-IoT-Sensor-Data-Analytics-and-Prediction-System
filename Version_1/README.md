@@ -1,4 +1,4 @@
-# Real-time-IoT-Sensor-Data-Analytics-and-Prediction-System 
+![elastic_kibana_02](https://github.com/user-attachments/assets/a66df6c4-c3f3-45fe-b967-c9633c361000)# Real-time-IoT-Sensor-Data-Analytics-and-Prediction-System 
 
 ![version](https://img.shields.io/badge/version-1-blue.svg)
 
@@ -76,35 +76,65 @@ Access dashboard at http://localhost:5601
 - Records when no activity is detected in rooms
 
 ### Process Steps with Screenshots:
-1. **Data Preprocessing**
+### System Testing & Component Integration
+1. **Connection Tests**
+![test_connection_01](https://github.com/user-attachments/assets/cda35cef-c97d-4672-b375-0d75855a402e)
+![test_connection_02](https://github.com/user-attachments/assets/dc39069c-a4a9-4a6e-ac85-b3ba68c03d82)
+
+
+
+- Testing connectivity between Kafka, Spark, and Elasticsearch
+- Verifying system readiness
+
+### Data Pipeline Implementation
+1. **Data Preprocessing Phase**
 ![preprocess_01](https://github.com/user-attachments/assets/66aa7e4a-3005-49e6-b7f6-d82c6bfeb068)
 ![preprocess_02](https://github.com/user-attachments/assets/9f945882-2d94-486e-b221-b2748053fe5b)
 ![preprocess_03](https://github.com/user-attachments/assets/6f410e4a-0489-48ff-9085-483a153f7993)
 ![preprocess_04](https://github.com/user-attachments/assets/a00a1f8c-5005-4410-8651-6d9e672d8f49)
+- Raw sensor data extraction and cleaning
+- Data standardization and formatting
+- Quality checks and validation
 
+2. **Real-time Data Streaming**
+![produce_01](https://github.com/user-attachments/assets/d643806d-790f-4649-b6d0-c79be9aa449a)
+![stream_elastic_01](https://github.com/user-attachments/assets/62346d1a-bef9-4c3c-b94a-b17c5acc4c9b)
+![stream_elastic_02](https://github.com/user-attachments/assets/5c13c78b-10e1-459b-86c8-9c7214c57297)
+- Kafka producer initialization
+- Spark streaming pipeline setup
+- Elasticsearch data ingestion
+- Real-time data flow monitoring
 
-  - Raw sensor data ingestion
-  - Data cleaning and formatting
+3. **Machine Learning Pipeline**
+![model_training_01](https://github.com/user-attachments/assets/6669c6e1-3bff-4191-a8a4-497ada16133c)
+![model_training_02](https://github.com/user-attachments/assets/fb6b1a6b-a17c-4d4b-8965-eabf429dd57b)
+- Model training initialization
+- Feature engineering
+- Training progress monitoring
+- Performance evaluation
 
-2. **Kafka Stream Processing**
-  ![Kafka Streaming](docs/images/kafka_stream.png)
-  - Real-time data streaming
-  - Multi-topic management
+4. **Real-time Activity Detection**
+![ml_streamin_01](https://github.com/user-attachments/assets/493d24d9-b273-49ba-82be-ade6a0b65721)
+![ml_streamin_02](https://github.com/user-attachments/assets/3bc1ac6e-7cfa-44e7-a219-386915700a47)
+![ml_streamin_03](https://github.com/user-attachments/assets/bf529873-f11f-4a33-88b2-552c91a8b489)
+![ml_streamin_04](https://github.com/user-attachments/assets/09fecf1f-563f-4347-941c-4d88f8043466)
+- Live prediction streaming
+- Movement classification
+- Real-time accuracy monitoring
+- System performance metrics
 
-3. **ML Model Training**
-  ![ML Training](docs/images/ml_training.png)
-  - Motion detection model training
-  - Performance metrics
-
-4. **Real-time Predictions**
-  ![Predictions](docs/images/predictions.png)
-  - Live activity detection
-  - Movement classification
-
-5. **Kibana Visualization**
-  ![Dashboard](docs/images/kibana_dashboard.png)
-  - Real-time metrics display
-  - Interactive analytics
+5. **Data Visualization & Analytics**
+![elastic_kibana_01](https://github.com/user-attachments/assets/1175c813-19ea-439a-969a-1f65f2981245)
+![elastic_kibana_02](https://github.com/user-attachments/assets/9e4fd8f2-3dd2-40a9-a01e-01080f552354)
+![elastic_kibana_03](https://github.com/user-attachments/assets/4e9c2ea1-0496-4873-8173-6246fe43ec90)
+![elastic_kibana_04](https://github.com/user-attachments/assets/b06fd2ca-b02d-4d36-ab08-498df831adfd)
+![elastic_kibana_05](https://github.com/user-attachments/assets/198dc190-7a14-405f-be0f-5b773c6c808d)
+![elastic_kibana_06](https://github.com/user-attachments/assets/0ed9179b-bb32-4359-9daf-54579c04e440)
+- Real-time dashboard implementation
+- Interactive data exploration
+- Sensor metrics visualization
+- Movement pattern analysis
+- Environmental monitoring
 
 ## Project Structure
 ```bash
