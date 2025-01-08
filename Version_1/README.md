@@ -1,5 +1,3 @@
-![elastic_kibana_02](https://github.com/user-attachments/assets/a66df6c4-c3f3-45fe-b967-c9633c361000)# Real-time-IoT-Sensor-Data-Analytics-and-Prediction-System 
-
 ![version](https://img.shields.io/badge/version-1-blue.svg)
 
 ![System_architecture](https://github.com/user-attachments/assets/5389dfc7-fd3e-4d45-8e2c-d44e12de8db1)
