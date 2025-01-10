@@ -5,10 +5,6 @@
 ## Project Overview
 This project implements a real-time data processing pipeline for analyzing sensor data from office buildings. It processes various sensor readings including temperature, humidity, CO2, and motion data, visualizes them in real-time, and makes ML predictions for activity detection.
 
-# Real-time IoT Sensor Data Analytics and Prediction System
-
-This project implements a real-time data pipeline for processing, analyzing, and predicting activity based on IoT sensor data from office buildings. It has been developed in two different versions:
-
 ## Version 1  
 The first version provides a standard data processing pipeline with the following components:  
 - **Apache Kafka**: Streaming sensor data in real-time.  
