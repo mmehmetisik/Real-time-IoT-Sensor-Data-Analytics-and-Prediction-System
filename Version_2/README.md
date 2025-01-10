@@ -109,3 +109,58 @@ Access dashboard at http://localhost:5601
 2013-08-26 22:12:11,1377555131,413,575.0,102.0,24.06,48.09,0.0
 2013-08-27 15:25:07,1377617107,413,449.0,42.0,23.28,47.28,0.0
 2013-08-27 05:39:03,1377581943,413,474.0,3.0,24.59,43.98,0.0
+```
+4. **Real-time Data Streaming**
+![produce_01](https://github.com/user-attachments/assets/d643806d-790f-4649-b6d0-c79be9aa449a)
+![stream_elastic_01](https://github.com/user-attachments/assets/62346d1a-bef9-4c3c-b94a-b17c5acc4c9b)
+![stream_elastic_02](https://github.com/user-attachments/assets/5c13c78b-10e1-459b-86c8-9c7214c57297)
+- Parallel stream processing
+- Direct Elasticsearch integration
+- Real-time data flow monitoring
+
+5. **Machine Learning Pipeline**
+![model_training_01](https://github.com/user-attachments/assets/6669c6e1-3bff-4191-a8a4-497ada16133c)
+![model_training_02](https://github.com/user-attachments/assets/fb6b1a6b-a17c-4d4b-8965-eabf429dd57b)
+- Streamlined model training
+- Direct CSV data utilization
+- Performance monitoring
+- Accuracy evaluation
+
+6. **Real-time Activity Detection**
+![ml_streamin_01](https://github.com/user-attachments/assets/493d24d9-b273-49ba-82be-ade6a0b65721)
+![ml_streamin_02](https://github.com/user-attachments/assets/3bc1ac6e-7cfa-44e7-a219-386915700a47)
+![ml_streamin_03](https://github.com/user-attachments/assets/bf529873-f11f-4a33-88b2-552c91a8b489)
+![ml_streamin_04](https://github.com/user-attachments/assets/09fecf1f-563f-4347-941c-4d88f8043466)
+- Live prediction streaming
+- Dual-topic classification
+- Real-time accuracy tracking
+- System performance metrics
+
+7. **Data Visualization & Analytics**
+![elastic_kibana_01](https://github.com/user-attachments/assets/1175c813-19ea-439a-969a-1f65f2981245)
+![elastic_kibana_02](https://github.com/user-attachments/assets/9e4fd8f2-3dd2-40a9-a01e-01080f552354)
+![elastic_kibana_03](https://github.com/user-attachments/assets/4e9c2ea1-0496-4873-8173-6246fe43ec90)
+![elastic_kibana_04](https://github.com/user-attachments/assets/b06fd2ca-b02d-4d36-ab08-498df831adfd)
+![elastic_kibana_05](https://github.com/user-attachments/assets/198dc190-7a14-405f-be0f-5b773c6c808d)
+![elastic_kibana_06](https://github.com/user-attachments/assets/0ed9179b-bb32-4359-9daf-54579c04e440)
+- Automated dashboard setup
+- Pre-configured visualizations
+- Real-time metrics tracking
+- Environmental monitoring
+
+project_root/
+├── docker/
+│   └── docker-compose.yml
+├── python_files/
+│   ├── stream_reader.py              # Combined preprocessing and streaming
+│   ├── spark_to_elasticsearch_wo_functions.py
+│   ├── model_training.py
+│   └── spark_ml_stream.py
+├── data/
+│   └── KETI/
+├── visualization/
+│   └── export.ndjson                 # Kibana dashboard template
+├── vm/
+│   └── version_01.ova               # Ready-to-run VM image
+└── README.md
+
