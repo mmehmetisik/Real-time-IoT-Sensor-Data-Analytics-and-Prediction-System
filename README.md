@@ -1,76 +1,37 @@
 # Real-time-IoT-Sensor-Data-Analytics-and-Prediction-System 
 
-![version](https://img.shields.io/badge/version-1-blue.svg)
-
 ![System_architecture](https://github.com/user-attachments/assets/5389dfc7-fd3e-4d45-8e2c-d44e12de8db1)
 
 ## Project Overview
 This project implements a real-time data processing pipeline for analyzing sensor data from office buildings. It processes various sensor readings including temperature, humidity, CO2, and motion data, visualizes them in real-time, and makes ML predictions for activity detection.
 
-## System Architecture
-The project consists of several interconnected components:
-- Data Collection Layer: IoT sensors and data preprocessing
-- Stream Processing Layer: Kafka and Spark streaming
-- Storage Layer: Elasticsearch
-- Visualization Layer: Kibana dashboards
-- ML Layer: Real-time activity prediction
+# Real-time IoT Sensor Data Analytics and Prediction System
 
-## Prerequisites
-- Docker and Docker Compose
-- Python 3.x
-- Minimum 8GB RAM
-- Required system settings: `vm.max_map_count=262144`
+This project implements a real-time data pipeline for processing, analyzing, and predicting activity based on IoT sensor data from office buildings. It has been developed in two different versions:
 
-## Technologies Used
-- Apache Kafka
-- Apache Spark
-- Elasticsearch
-- Kibana
-- Python (PySpark, pandas)
-- Machine Learning (scikit-learn)
+## Version 1  
+The first version provides a standard data processing pipeline with the following components:  
+- **Apache Kafka**: Streaming sensor data in real-time.  
+- **Apache Spark**: Real-time data processing.  
+- **Elasticsearch**: Storing processed data.  
+- **Kibana**: Visualizing real-time data.  
+- **Machine Learning**: Real-time activity prediction.
 
-## Pipeline Components
+## Version 2  
+The second version introduces enhanced features and a more efficient pipeline:  
+- **Direct data ingestion from GitHub** with **parallel processing**.  
+- **Combined preprocessing and streaming steps** for faster data handling.  
+- **Automated Kibana dashboard setup** for instant visualization.  
+- **Ready-to-run VM image** for quick deployment.  
+- **Bilingual documentation (English/Turkish)** for broader accessibility.
 
-### 1. Data Ingestion
-- Downloads and preprocesses KETI sensor dataset
-- Converts raw data into streamable format
-- Sets up Kafka topics for data streaming
+Both versions utilize the following technologies:  
+- **Docker**  
+- **Apache Kafka**  
+- **Apache Spark**  
+- **Elasticsearch**  
+- **Kibana**  
+- **Python (PySpark, pandas)**  
+- **Machine Learning (scikit-learn)**
 
-### 2. Data Processing
-- Real-time stream processing with Apache Spark
-- Data storage in Elasticsearch
-- Real-time visualization in Kibana
-
-### 3. Machine Learning
-- Model training for motion detection
-- Real-time predictions using trained model
-- Separate Kafka topics for activity predictions
-
-## Monitoring and Visualization
-
-### Kibana Dashboard
-Access dashboard at http://localhost:5601
-- Real-time sensor data visualization
-- Motion state distribution
-- Environmental metrics (CO2, temperature, humidity)
-- Room-specific analytics
-- Interactive filtering and time range selection
-
-### Data Monitoring
-- Elasticsearch indexes: http://localhost:9200/_cat/indices
-- Kafka topics monitoring through console consumers
-- ML prediction monitoring through dedicated topics
-
-## Kafka Topics
-
-### office-input
-- Receives CSV data from preprocessing
-- Source for Elasticsearch stream and ML model
-
-### office-activity
-- Used for motion detection events
-- Records when activity is detected in rooms
-
-### office-no-activity
-- Used for no-motion detection events
-- Records when no activity is detected in rooms
+This project enables real-time monitoring of sensor data, environmental analytics, and motion detection.
