@@ -1,7 +1,7 @@
-![strea_reader_01](https://github.com/user-attachments/assets/6c378e0e-af0a-4a51-a959-3d1ca79533f1)# Real-time-IoT-Sensor-Data-Analytics-and-Prediction-System
+# Real-time-IoT-Sensor-Data-Analytics-and-Prediction-System
 ![version](https://img.shields.io/badge/version-2-blue.svg)
 
-[SYSTEM ARCHITECTURE IMAGE PLACEHOLDER]
+![System_architecture](https://github.com/user-attachments/assets/352d5318-f2cc-4090-91ee-5b3aebbebe59)
 
 # Version Features
 This is Version 2 of the project, featuring:
