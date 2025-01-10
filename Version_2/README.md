@@ -1,4 +1,4 @@
-# Real-time-IoT-Sensor-Data-Analytics-and-Prediction-System
+![strea_reader_01](https://github.com/user-attachments/assets/6c378e0e-af0a-4a51-a959-3d1ca79533f1)# Real-time-IoT-Sensor-Data-Analytics-and-Prediction-System
 ![version](https://img.shields.io/badge/version-2-blue.svg)
 
 [SYSTEM ARCHITECTURE IMAGE PLACEHOLDER]
@@ -90,19 +90,25 @@ Access dashboard at http://localhost:5601
 # Process Steps with Screenshots:
 
 ## 1. Connection Tests
-[PLACE CONNECTION TEST SCREENSHOTS HERE]
+![test_connection_01](https://github.com/user-attachments/assets/febb33c9-27e6-4c72-900e-3418fe5f600c)
+![test_connection_02](https://github.com/user-attachments/assets/12d42ec4-d297-4242-ba36-1a8d487ba85a)
+
 - Testing connectivity between Kafka, Spark, and Elasticsearch
 - Verifying system readiness
 
 ## 2. Data Preprocessing Phase
-[PLACE PREPROCESSING SCREENSHOTS HERE]
+![strea_reader_01](https://github.com/user-attachments/assets/dc5ddb47-9a6b-4a80-8b66-ca91ad5d2f8d)
+![strea_reader_02](https://github.com/user-attachments/assets/fd74af94-e435-479e-8b8b-893f3364fd0a)
+![strea_reader_03](https://github.com/user-attachments/assets/654e28e6-dadb-4bde-a0e8-c5862245f793)
+
 - Direct GitHub data download and preprocessing
 - Combined streaming and CSV creation
 - Data standardization and formatting
 - Quality checks and validation
 
 ## 3. Kafka Topic Monitoring
-[PLACE KAFKA MONITORING SCREENSHOT HERE]
+![topic_monitoring](https://github.com/user-attachments/assets/2b3a2710-2b4b-47f9-b2f6-378c4a86bf91)
+
 - Real-time topic data visualization
 - Sample data output:
 ```bash
@@ -111,16 +117,21 @@ Access dashboard at http://localhost:5601
 2013-08-27 05:39:03,1377581943,413,474.0,3.0,24.59,43.98,0.0
 ```
 4. **Real-time Data Streaming**
-![produce_01](https://github.com/user-attachments/assets/d643806d-790f-4649-b6d0-c79be9aa449a)
-![stream_elastic_01](https://github.com/user-attachments/assets/62346d1a-bef9-4c3c-b94a-b17c5acc4c9b)
-![stream_elastic_02](https://github.com/user-attachments/assets/5c13c78b-10e1-459b-86c8-9c7214c57297)
+![stream_to_elastic_01](https://github.com/user-attachments/assets/d459a5cd-1f38-4188-9829-3567cc77f235)
+![stream_to_elastic_02](https://github.com/user-attachments/assets/0aab6bbd-0b23-4cf4-b7ae-22b0322bdcb9)
+![strea_reader_03](https://github.com/user-attachments/assets/9655e438-9f1c-4357-9557-3318ff46fd91)
+
 - Parallel stream processing
 - Direct Elasticsearch integration
 - Real-time data flow monitoring
 
 5. **Machine Learning Pipeline**
-![model_training_01](https://github.com/user-attachments/assets/6669c6e1-3bff-4191-a8a4-497ada16133c)
-![model_training_02](https://github.com/user-attachments/assets/fb6b1a6b-a17c-4d4b-8965-eabf429dd57b)
+![model_training_01](https://github.com/user-attachments/assets/fa872a39-8196-4c24-b475-3ebd8abf780a)
+![model_training_02](https://github.com/user-attachments/assets/80f69a1b-14fb-4273-bc30-e7a2665ea03e)
+![ml_streamin_01](https://github.com/user-attachments/assets/04f86925-ad7c-4ab7-ae86-87229c5af06a)
+![ml_streamin_02](https://github.com/user-attachments/assets/bb56818c-cbef-4afc-9d5c-720d1589bd63)
+![ml_streamin_03](https://github.com/user-attachments/assets/beca61e2-0d9a-4b8a-8da1-2a080885bf99)
+
 - Streamlined model training
 - Direct CSV data utilization
 - Performance monitoring
@@ -131,23 +142,27 @@ Access dashboard at http://localhost:5601
 ![ml_streamin_02](https://github.com/user-attachments/assets/3bc1ac6e-7cfa-44e7-a219-386915700a47)
 ![ml_streamin_03](https://github.com/user-attachments/assets/bf529873-f11f-4a33-88b2-552c91a8b489)
 ![ml_streamin_04](https://github.com/user-attachments/assets/09fecf1f-563f-4347-941c-4d88f8043466)
+
 - Live prediction streaming
 - Dual-topic classification
 - Real-time accuracy tracking
 - System performance metrics
 
 7. **Data Visualization & Analytics**
-![elastic_kibana_01](https://github.com/user-attachments/assets/1175c813-19ea-439a-969a-1f65f2981245)
-![elastic_kibana_02](https://github.com/user-attachments/assets/9e4fd8f2-3dd2-40a9-a01e-01080f552354)
-![elastic_kibana_03](https://github.com/user-attachments/assets/4e9c2ea1-0496-4873-8173-6246fe43ec90)
-![elastic_kibana_04](https://github.com/user-attachments/assets/b06fd2ca-b02d-4d36-ab08-498df831adfd)
-![elastic_kibana_05](https://github.com/user-attachments/assets/198dc190-7a14-405f-be0f-5b773c6c808d)
-![elastic_kibana_06](https://github.com/user-attachments/assets/0ed9179b-bb32-4359-9daf-54579c04e440)
+![elastic_kibana_01](https://github.com/user-attachments/assets/7fa5f174-bd4c-46ec-868c-56fafe5a8b67)
+![elastic_kibana_02](https://github.com/user-attachments/assets/fb80d6b0-1323-41cf-8198-74f8c4b5c411)
+![elastic_kibana_03](https://github.com/user-attachments/assets/06ea3bb5-a7d0-4f9c-bcea-ddbf96a45c3c)
+![elastic_kibana_04](https://github.com/user-attachments/assets/d1921e21-7560-4644-bf68-4fabdc4d2159)
+![elastic_kibana_05](https://github.com/user-attachments/assets/07d8a6cf-1fc7-44a6-8c4d-f221eb44334e)
+![elastic_kibana_06](https://github.com/user-attachments/assets/64e5a1cf-bb4b-4c2e-b38e-bcb897c1b704)
+
 - Automated dashboard setup
 - Pre-configured visualizations
 - Real-time metrics tracking
 - Environmental monitoring
 
+Project Structure
+```bash
 project_root/
 ├── docker/
 │   └── docker-compose.yml
@@ -163,4 +178,4 @@ project_root/
 ├── vm/
 │   └── version_01.ova               # Ready-to-run VM image
 └── README.md
-
+```
