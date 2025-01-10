@@ -1,12 +1,21 @@
 # Real-time-IoT-Sensor-Data-Analytics-and-Prediction-System
 ![version](https://img.shields.io/badge/version-2-blue.svg)
 
-![System_architecture](https://github.com/user-attachments/assets/5389dfc7-fd3e-4d45-8e2c-d44e12de8db1)
+[SYSTEM ARCHITECTURE IMAGE PLACEHOLDER]
 
-## Project Overview
+# Version Features
+This is Version 2 of the project, featuring:
+- Direct GitHub to Spark data ingestion
+- Parallel data processing and streaming
+- Combined preprocessing steps
+- Automated Kibana dashboard setup
+- Ready-to-run VM image
+- Bilingual documentation (EN/TR)
+
+# Project Overview
 This project implements a real-time data processing pipeline for analyzing sensor data from office buildings. It processes various sensor readings including temperature, humidity, CO2, and motion data, visualizes them in real-time, and makes ML predictions for activity detection using a direct GitHub to Spark approach.
 
-## System Architecture
+# System Architecture
 The project consists of several interconnected components:
 - Data Collection Layer: Direct GitHub data ingestion and preprocessing
 - Stream Processing Layer: Parallel Kafka and Spark streaming
@@ -14,14 +23,14 @@ The project consists of several interconnected components:
 - Visualization Layer: Automated Kibana dashboards
 - ML Layer: Real-time activity prediction
 
-## Prerequisites
+# Prerequisites
 - Docker and Docker Compose
 - Python 3.x
 - Minimum 8GB RAM
 - Required system settings: `vm.max_map_count=262144`
 - RockyLinux VM environment
 
-## Technologies Used
+# Technologies Used
 - Apache Kafka
 - Apache Spark
 - Elasticsearch
@@ -29,27 +38,27 @@ The project consists of several interconnected components:
 - Python (PySpark, pandas)
 - Machine Learning (scikit-learn)
 
-## Pipeline Components
+# Pipeline Components
 
-### 1. Data Ingestion
+## 1. Data Ingestion
 - Direct download of KETI sensor dataset from GitHub
 - Combined preprocessing and streaming
 - Incremental CSV building with room-by-room append
 - Sets up Kafka topics for streaming
 
-### 2. Data Processing
+## 2. Data Processing
 - Parallel stream processing with Apache Spark
 - Direct Elasticsearch integration
 - Real-time visualization in Kibana
 
-### 3. Machine Learning
+## 3. Machine Learning
 - Model training using incrementally built CSV
 - Real-time predictions using trained model
 - Separate Kafka topics for activity predictions
 
-## Monitoring and Visualization
+# Monitoring and Visualization
 
-### Kibana Dashboard
+## Kibana Dashboard
 Access dashboard at http://localhost:5601
 - Pre-configured visualization templates
 - Auto-created graphs using export.ndjson
@@ -59,46 +68,41 @@ Access dashboard at http://localhost:5601
 - Room-specific analytics
 - Interactive filtering and time range selection
 
-### Data Monitoring
+## Data Monitoring
 - Elasticsearch indexes: http://localhost:9200/_cat/indices
 - Kafka topics monitoring through console consumers
 - ML prediction monitoring through dedicated topics
 
-## Kafka Topics
+# Kafka Topics
 
-### office-input
+## office-input
 - Receives preprocessed sensor data directly
 - Source for both Elasticsearch and ML model
 
-### office-activity
+## office-activity
 - Used for motion detection events
 - Records when activity is detected in rooms
 
-### office-no-activity
+## office-no-activity
 - Used for no-motion detection events
 - Records when no activity is detected in rooms
 
-### Process Steps with Screenshots:
-### System Testing & Component Integration
-1. **Connection Tests**
-![test_connection_01](https://github.com/user-attachments/assets/cda35cef-c97d-4672-b375-0d75855a402e)
-![test_connection_02](https://github.com/user-attachments/assets/dc39069c-a4a9-4a6e-ac85-b3ba68c03d82)
+# Process Steps with Screenshots:
+
+## 1. Connection Tests
+[PLACE CONNECTION TEST SCREENSHOTS HERE]
 - Testing connectivity between Kafka, Spark, and Elasticsearch
 - Verifying system readiness
 
-### Data Pipeline Implementation
-2. **Data Preprocessing Phase**
-![preprocess_01](https://github.com/user-attachments/assets/66aa7e4a-3005-49e6-b7f6-d82c6bfeb068)
-![preprocess_02](https://github.com/user-attachments/assets/9f945882-2d94-486e-b221-b2748053fe5b)
-![preprocess_03](https://github.com/user-attachments/assets/6f410e4a-0489-48ff-9085-483a153f7993)
-![preprocess_04](https://github.com/user-attachments/assets/a00a1f8c-5005-4410-8651-6d9e672d8f49)
+## 2. Data Preprocessing Phase
+[PLACE PREPROCESSING SCREENSHOTS HERE]
 - Direct GitHub data download and preprocessing
 - Combined streaming and CSV creation
 - Data standardization and formatting
 - Quality checks and validation
 
-3. **Kafka Topic Monitoring**
-![topic_monitoring](https://github.com/user-attachments/assets/aa2f5f02-4681-4b50-a50f-672b29fab139)
+## 3. Kafka Topic Monitoring
+[PLACE KAFKA MONITORING SCREENSHOT HERE]
 - Real-time topic data visualization
 - Sample data output:
 ```bash
